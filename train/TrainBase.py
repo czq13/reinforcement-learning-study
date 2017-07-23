@@ -6,6 +6,7 @@ import numpy as np
 from parameters import pms
 from network.NetworkLinear import NetworkLinear
 from network.NetworkNet import NetworkNet
+from network.NetworkSVM import NetworkSVM
 
 class TrainBase():
     def __init__(self,net):

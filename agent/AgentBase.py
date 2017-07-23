@@ -7,6 +7,7 @@ import tensorflow as tf
 from parameters import pms
 from network.NetworkLinear import NetworkLinear
 from network.NetworkNet import NetworkNet
+from network.NetworkSVM import NetworkSVM
 from train.TrainBase import TrainBase
 from environment import Environment
 from recorder.RecorderBase import RecorderBase
